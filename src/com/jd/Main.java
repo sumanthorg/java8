@@ -18,6 +18,6 @@ public class Main {
     private static Integer getInteger() {
         System.out.println("in completable future");
         //Sleep.sleep(2);
-        return 2;
+        return 3;
     }
 }
