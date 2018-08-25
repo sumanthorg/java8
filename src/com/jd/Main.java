@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         CompletableFuture<Integer> future = CompletableFuture.supplyAsync(Main::getInteger);
 
-        Sleep.sleep(1);
+        Sleep.sleep(3);
         System.out.println(
                 future.getNow(1)
         );
